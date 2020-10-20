@@ -110,40 +110,50 @@ con{
 @media (min-width: 992px){
     con{
         width: 100%;
+        margin-left: 11%;
+    }
+    #d1{
+        width: 25%;
+    }
+    #d2{
+        width: 25%;
+    }
+    #d3{
+        width: 25%;
     }
 }
 
-@media (min-width: 768px) and (max-width: 1111px){
+@media (min-width: 768px) and (max-width: 991px){
     con{
         width: 100%;
-        margin-left: 25px;
+        margin-left: 4%;
     }
     #d1{
-        width: 45%;
+        width: 40%;
     }
     #d2{
-        width: 45%;
+        width: 40%;
     }
     #d3{
-        width: 92.5%;
+        width: 82.5%;
         margin-top: 20px;
     }
 }
 
-@media (min-width: 480px) and (max-width: 767px){
+@media (max-width: 767px){
     con{
         width: 100%;
-        margin-left: 25%;
+        margin-left: 10%;
     }
     #d1{
-        width: 50%;
+        width: 80%;
     }
     #d2{
-        width: 50%;
+        width: 80%;
         margin-top: 20px;
     }
     #d3{
-        width: 50%;
+        width: 80%;
         margin-top: 20px;
     }
 }
